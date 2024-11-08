@@ -22,7 +22,6 @@ export type ProjectProps = {
   technologies: IconType[];
   techNames: string[];
   techLinks: string[];
-  github: string;
   demo: string;
   image: string;
   available: boolean;
