@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import Grain from "../overlay/Grain";
 import "./container.css";
-import {useEventListener} from "usehooks-ts";
+import { useEventListener } from "usehooks-ts";
 
 type CustomCSSProperties = React.CSSProperties & {
     "--width"?: string | number;
@@ -61,7 +61,7 @@ const Container: React.FC<ContainerProps> = ({
     left = 0,
     color,
     spotlightColor = "rgba(255, 255, 255, 0.25)", // #ffffff just a bit of white
-    accentColor = "rgba(255, 255, 255, 1.0)", // #c673ff Amethyst
+    accentColor = "rgba(0, 0, 0)", // #c673ff Amethyst
     blur = true,
     borderRadius = 0,
     angle,
@@ -121,7 +121,7 @@ const Container: React.FC<ContainerProps> = ({
             <div className="border" />
             <div className="border-highlight" />
             <div className="grain">
-                <Grain baseFrequency={baseFrequency} numOctaves={numOctaves} w={width} h={height}/>
+                <Grain baseFrequency={baseFrequency} numOctaves={numOctaves} w={width} h={height} />
             </div>
         </div>
     );

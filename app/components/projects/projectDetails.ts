@@ -30,17 +30,11 @@ export type ProjectProps = {
 export const projects = [
   {
     id: 0,
-    name: "Mango Effect Burst",
+    name: "Mango Burst Effect",
     description:
       "A commercial video project created using Adobe After Effects and Adobe Premiere Pro.",
     technologies: [SiAdobeaftereffects, SiAdobepremierepro],
     techNames: ["After Effect", "Premeire Pro"],
-    techLinks: [
-      "https://get.webgl.org/",
-      "https://www.typescriptlang.org/",
-      "https://reactjs.org/",
-    ],
-
     demo: "https://res.cloudinary.com/dcggpbjur/video/upload/v1729798137/Purevita_Mango_uew8jr.mp4",
     image: "/projects/mangovideo.jpg",
     available: true,
@@ -52,11 +46,7 @@ export const projects = [
       "A 3D animation project created using a combination of Adobe After Effects, Maya, Blender, and Adobe Premiere Pro.",
     technologies: [SiAdobeaftereffects, SiAdobepremierepro],
     techNames: ["After Effect", "Premeire Pro"],
-    techLinks: [
-      "https://get.webgl.org/",
-      "https://www.typescriptlang.org/",
-      "https://reactjs.org/",
-    ],
+    
 
     demo: "https://res.cloudinary.com/dcggpbjur/video/upload/v1729798887/royal_oil_001_ciwrau.mp4",
     image: "/projects/oilvideo.jpg",
@@ -69,11 +59,7 @@ export const projects = [
       "A commercial video project for a trading platform, created using Adobe After Effects and Adobe Premiere Pro.",
     technologies: [SiAdobeaftereffects, SiAdobepremierepro],
     techNames: ["After Effect", "Premeire Pro"],
-    techLinks: [
-      "https://get.webgl.org/",
-      "https://www.typescriptlang.org/",
-      "https://reactjs.org/",
-    ],
+   
 
     demo: "https://res.cloudinary.com/dcggpbjur/video/upload/v1730991021/Trading_commercial_pzvd6n.mp4",
     image: "/projects/tradingvideo.jpg",
@@ -86,11 +72,7 @@ export const projects = [
       "An educational video project created using Adobe After Effects and Adobe Premiere Pro.",
     technologies: [SiAdobeaftereffects, SiAdobepremierepro],
     techNames: ["After Effect", "Premeire Pro"],
-    techLinks: [
-      "https://get.webgl.org/",
-      "https://www.typescriptlang.org/",
-      "https://reactjs.org/",
-    ],
+    
 
     demo: "https://res.cloudinary.com/dcggpbjur/video/upload/v1729798048/Yogi_Sir_2nd_Draft_-_Demo_wyjqld.mp4",
     image: "/projects/yogivideo.jpg",
